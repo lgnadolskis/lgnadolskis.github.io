@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Lucas Nadolskis
+name: "Lucas Nadolskis"
 
 # Short bio or description (displayed in the header)
 description: Summer 2020 DREU Project
@@ -18,7 +18,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: nadol012@umn.edu
+  email: "nadol012@umn.edu"
   facebook:
   flickr:
   rss: # just type anything here for a working RSS icon
