@@ -22,7 +22,7 @@ His website can be reached at: https://www.wichita.edu/research/access-lab/
 My project is focused on the use of computer vision to determine specific information about the environment to aid blind people’s navigation.
 
 
-[My Final Report]("files/finalreport.pdf")
+[My Final Report]("finalreport.pdf")
 
 ## My Blog
 
