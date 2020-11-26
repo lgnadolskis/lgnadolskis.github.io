@@ -22,7 +22,7 @@ at the Thirty-Fifth AAAI Conference on Artificial Intelligence
 Lucas Nadolskis, "Applying novel technologies to assist visually
 impaired people with social distance measures", poster at the Virtual
 Grace Hopper Celebration. October 2020. Available
-[here](poster_preview)
+[here](poster_preview.pdf)
 
 Lucas Nadolskis, "Use of computer vision to develop a device to assist
 visually impaired people on social distance", final report for DREU
