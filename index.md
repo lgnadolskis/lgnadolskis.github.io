@@ -10,7 +10,8 @@ title: Lucas Gil Nadolskis personal website.
 
 I am a last year undergraduate student at the University of Minnesota. I am getting my BS in Computer Science and a Minor in integrated Neuroscience. I intend to pursue a graduate education in the interdisciplanary field of the combination between computer science and neuroscience.
 My current research is on the group of Dr Catherine Qi Zhao  and it is focused on brain computer interfaces. Specially one research project develops new AI and deep learning methods to decode amputee's motor intention based on their peripheral nerve activities.
-I can be reached at: nadol012@umn.edu
+I can be reached at: 
+<aref> nadol012@umn.edu
 
 ## Publications and Presentations
 
