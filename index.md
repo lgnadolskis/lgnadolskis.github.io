@@ -8,18 +8,24 @@ title: Lucas Gil Nadolskis personal website.
 
 ## About Me
 
-I am a student at the University of Minnesota. I am getting my BS in Computer Science and a Minor in Neuroscience. I intend to pursue a PhD in the area of Brain Computer Interfaces. My current research is focused on the applications of computer vision for accessibility specifically for blind and low vision individuals.
+I am a last year undergraduate student at the University of Minnesota. I am getting my BS in Computer Science and a Minor in integrated Neuroscience. I intend to pursue a graduate education in the interdisciplanary field of the combination between computer science and neuroscience.
+My current research is on the group of Dr Catherine Qi Zhao  and it is focused on brain computer interfaces. Specially one research project develops new AI and deep learning methods to decode amputee's motor intention based on their peripheral nerve activities.
 I can be reached at: nadol012@umn.edu
 
 
-## About My Mentor
-My mentor for the DREU summer project is  Dr Vinod Namboodiri at Wichita State University, Department of Electrical Engineering and Computer Science. His area of research is on accessibility and Assistive Technologies, Mobile Computing, Wireless Networks. His website can be reached at:
- <a href="https://www.wichita.edu/research/access-lab/">https://www.wichita.edu/research/access-lab/</a>.
 
+## Publications and Presentations
 
+Lucas Nadolskis, "Use of computer vision to develop a device to assist
+visually impaired people on social distance," Undergraduate Consortium
+at the Thirty-Fifth AAAI Conference on Artificial Intelligence
+(AAAI-21) (acceptance rate 17%).
 
+Lucas Nadolskis, "Applying novel technologies to assist visually
+impaired people with social distance measures", poster at the Virtual
+Grace Hopper Celebration. October 2020.
 
-## About My Projects
-My project is focused on the use of computer vision to determine specific information about the environment to aid blind people’s navigation.
-
-[My Final Report](finalreport.pdf)
+Lucas Nadolskis, "Use of computer vision to develop a device to assist
+visually impaired people on social distance", final report for DREU
+project, August 2020. Available 
+[here](finalreport.pdf)
