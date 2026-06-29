@@ -1,0 +1,5 @@
+{
+  "client_id": "YOUR_LINKEDIN_APP_CLIENT_ID",
+  "client_secret": "YOUR_LINKEDIN_APP_CLIENT_SECRET",
+  "_note": "Copy this file to linkedin_config.json and fill in the two values from your LinkedIn app's Auth tab. linkedin_config.json is gitignored so your secret is never committed."
+}

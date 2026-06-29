@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="How I make an ordinary differential equations textbook accessible — and why today&#x27;s tools still fall short." />
+  <meta name="author" content="Lucas Gil Nadolskis" />
+  <meta property="og:title" content="Navigating STEM as a Blind PhD Student: A Personal Journey | Braille Mind" />
+  <meta property="og:description" content="How I make an ordinary differential equations textbook accessible — and why today&#x27;s tools still fall short." />
+  <meta property="og:type" content="website" />
+  <title>Navigating STEM as a Blind PhD Student: A Personal Journey | Braille Mind</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="../index.html">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+        Braille Mind
+      </a>
+      <div class="nav-right">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog.html" aria-current="page">Blog</a></li>
+        <li><a href="../publications.html">Publications &amp; Media</a></li>
+        <li><a href="../cv.html">CV</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch theme">🌙</button>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <div class="container">
+      <a class="back-link" href="../blog.html"><span aria-hidden="true">&larr;</span> All posts</a>
+      <article>
+        <header class="article-header">
+          <p class="post-meta">November 13, 2024</p>
+          <h1>Navigating STEM as a Blind PhD Student: A Personal Journey</h1>
+          <p class="lead">A Personal Journey</p>
+          <p><span class="tag">Accessibility</span><span class="tag">STEM</span><span class="tag">Braille</span></p>
+        </header>
+        <div class="article-body">
+<p>Lately, I&rsquo;ve been facing the reality of what it means to be a blind PhD student in STEM. It&rsquo;s tough—books are inaccessible, technologies are outdated, and there&rsquo;s not much support out there. All of this adds up to a massive cognitive overload. But over time, I&rsquo;ve come up with some strategies to handle these challenges. Since I think they could help other blind or low-vision folks, I&rsquo;ve decided to share them. Today, I want to talk about how I make a document accessible, specifically an ordinary differential equations (ODE) textbook.</p>
+<h2>The Accessibility Challenge</h2>
+<p>My first step was to ask the university&rsquo;s disability services for the textbook in Braille. But when I saw how huge the Braille version was, I knew I had to try something else. That&rsquo;s when I switched to XML.</p>
+<p><strong>Why XML?</strong>
+In my experience, XML files work better with screen readers like <a href="https://www.freedomscientific.com/products/software/jaws/">JAWS</a> and <a href="https://www.nvaccess.org/">NVDA</a> in Word compared to regular DOCX files. I&rsquo;d used this method before, and it was usually quicker and smoother. This time, though, I hit a major roadblock: matrices.</p>
+<p>JAWS and NVDA just don&rsquo;t handle matrices well. Navigating through each one takes forever. To work around this, I converted the XML to DOCX using Word&rsquo;s built-in option. The conversion went fine, but the matrix issue stuck around.</p>
+<p>On top of that, my screen readers started lagging badly when I tried to read the document. Maybe it was the sheer number of matrices, or maybe it&rsquo;s just how screen readers handle these files—but either way, it made reading the textbook almost impossible.</p>
+<h2>Turning to Braille</h2>
+<p>For a while, my <a href="https://hims-inc.com/product/braille-sense-6/">HIMS-6 Braille display</a> saved the day. Plugging it into my computer made reading more manageable, though matrices were still a pain. I had to interact with each one individually, which, for an ODE textbook, is no small task.</p>
+<p>Next, I tried converting the file with <a href="https://www.duxburysystems.com/">Duxbury</a> and embossing it in Braille. Unfortunately, this was even more frustrating. Duxbury struggled with some math symbols and messed up the formatting of the matrices.</p>
+<p>Then things got worse—my Braille display started acting up, repeatedly flashing &ldquo;top panel locked&rdquo; and &ldquo;unlocked.&rdquo; After talking to HIMS support, I found out I&rsquo;d have to send it in for repairs.</p>
+<h2>Back to the Drawing Board</h2>
+<p>With my Braille display out of commission, I was left with a document my screen readers couldn&rsquo;t handle, Duxbury struggling with conversions, and no real backup plan. So, I went back to my old process for making PDFs accessible:</p>
+<ol>
+<li><strong>Get the PDF</strong>: Either download it or scan a physical copy at the highest resolution possible.</li>
+<li><strong>Run it Through OCR</strong>: Convert the PDF into a more accessible format like XML, DOCX, TeX, or HTML. My go-to OCR tools are:<ul>
+<li><a href="https://www.abbyy.com/en-us/finereader/">Abbyy FineReader</a></li>
+<li><a href="https://mathpix.com/">MathPix</a></li>
+<li><a href="https://www.inftyproject.org/en/software.html">InftyReader</a></li>
+</ul>
+</li>
+<li><strong>Check the Output</strong>: If the document is readable in one of these formats, great. If not, run it through Duxbury and either emboss it or use a Braille display.</li>
+</ol>
+<h2>The Problems</h2>
+<ol>
+<li><strong>OCR Isn&rsquo;t Perfect</strong>: Especially with math-heavy content, OCR tools can&rsquo;t always be trusted to get everything right.</li>
+<li><strong>Duxbury&rsquo;s Limitations</strong>: While it&rsquo;s the best Braille conversion software out there, it struggles with more complex math symbols and often loses the spatial organization of formulas.</li>
+<li><strong>Time and Cost</strong>: This process takes forever, and the software and devices involved aren&rsquo;t cheap. Even after all that effort, it doesn&rsquo;t always work.</li>
+</ol>
+<p>The only way I can guarantee accuracy is by asking a sighted colleague to compare the original document with the converted one. But relying on others isn&rsquo;t ideal and highlights the limits of today&rsquo;s accessibility tools.</p>
+<h2>The Bigger Picture</h2>
+<p>All of this could be avoided if publishers made their digital books fully accessible to screen readers. I&rsquo;d gladly pay for a properly formatted, accessible version of the textbook. Unfortunately, that&rsquo;s just not an option right now.</p>
+<p>This problem is even worse for PhD students. If a book or paper is assigned for a class, the university has to provide an accessible version. But if you need it for your research or thesis, it doesn&rsquo;t count as class material. So, you&rsquo;re stuck in this frustrating PhD limbo.</p>
+<h2>What&rsquo;s Next?</h2>
+<p>I haven&rsquo;t even gotten into the nightmare of dealing with graphs yet—that&rsquo;s a post for another day. Spoiler alert: it&rsquo;s going to be even longer than this one.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Lucas Gil Nadolskis. All rights reserved.</p>
+      <ul class="footer-links"><li><a href="mailto:lgnadolskis@gmail.com">Email</a></li><li><a href="https://scholar.google.com/citations?user=UN24wokAAAAJ">Google Scholar</a></li><li><a href="https://bionicvisionlab.org/people/nadolskis_lucas/">Bionic Vision Lab</a></li><li><a href="https://www.linkedin.com/in/lgilnadolskis/">LinkedIn</a></li><li><a href="https://x.com/lnadolskis">Twitter / X</a></li><li><a href="https://bsky.app/profile/lnadolskis.bsky.social">Bluesky</a></li></ul>
+    </div>
+  </footer>
+  <script src="../js/scripts.js"></script>
+</body>
+</html>

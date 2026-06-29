@@ -1,0 +1,21 @@
+{
+  "site_title": "Braille Mind",
+  "tagline": "Accessibility, neuroscience, and technology — combined in six dots.",
+  "author": "Lucas Gil Nadolskis",
+  "url": "https://braillemind.com",
+  "description": "A blog by Lucas Gil Nadolskis combining accessibility, neuroscience, and technology.",
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Blog", "href": "blog.html" },
+    { "label": "Publications & Media", "href": "publications.html" },
+    { "label": "CV", "href": "cv.html" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "social": [
+    { "label": "Email", "href": "mailto:lgnadolskis@gmail.com" },
+    { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=UN24wokAAAAJ" },
+    { "label": "Bionic Vision Lab", "href": "https://bionicvisionlab.org/people/nadolskis_lucas/" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/lgilnadolskis/" },
+    { "label": "Twitter / X", "href": "https://x.com/lnadolskis" },
+    { "label": "Bluesky", "href": "https://bsky.ap

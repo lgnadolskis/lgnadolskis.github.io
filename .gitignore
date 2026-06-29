@@ -1,0 +1,9 @@
+# LinkedIn credentials & tokens — never commit these
+build/linkedin_config.json
+build/linkedin_token.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

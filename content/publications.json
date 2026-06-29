@@ -1,0 +1,339 @@
+{
+  "intro": "A running list of my research, talks, podcasts, and media. I'm a PhD student in Dynamical Neuroscience at UC Santa Barbara, working in the Bionic Vision Lab on visual prosthetics and accessible technology. If something here is out of date or missing, let me know.",
+  "sections": [
+    {
+      "title": "Peer-Reviewed Papers",
+      "items": [
+        {
+          "title": "Aligning visual prosthetic development with implantee needs",
+          "authors": "Lucas Nadolskis*, Lily M. Turkstra*, Ebenezer Larnyo, Michael Beyeler",
+          "venue": "Translational Vision Science & Technology (TVST), 13(11):28",
+          "year": "2024",
+          "desc": "An interview study with Argus II and Orion implant recipients, revealing the gap between researcher expectations and implantees' real-world experiences. (* equal contribution)",
+          "links": [
+            { "label": "DOI", "url": "https://doi.org/10.1167/tvst.13.11.28" },
+            { "label": "Full text (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11585069/" },
+            { "label": "Lab page", "url": "https://bionicvisionlab.org/publications/2024-11-implant-expectations/" }
+          ]
+        },
+        {
+          "title": "Data Navigator: An Accessibility-Centered Data Navigation Toolkit",
+          "authors": "Frank Elavsky, Lucas Nadolskis, Dominik Moritz",
+          "venue": "IEEE Transactions on Visualization and Computer Graphics, 30(1):803–813 (IEEE VIS)",
+          "year": "2023",
+          "desc": "A JavaScript toolkit for accessible, multi-modal navigation of data structures and visualizations via screen reader, keyboard, speech, and gesture.",
+          "links": [
+            { "label": "DOI", "url": "https://doi.org/10.1109/TVCG.2023.3327393" },
+            { "label": "arXiv", "url": "https://arxiv.org/abs/2308.08475" },
+            { "label": "Project", "url": "https://dig.cmu.edu/data-navigator/" },
+            { "label": "Code", "url": "https://github.com/cmudig/data-navigator" }
+          ]
+        },
+        {
+          "title": "VisionAI — Shopping Assistance for People with Vision Impairments",
+          "authors": "Anika Arora, Lucas Nadolskis, Michael Beyeler, Misha Sra",
+          "venue": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct)",
+          "year": "2024",
+          "desc": "A mobile app to enhance the in-store shopping experience for people with vision impairments.",
+          "links": [
+            { "label": "DOI", "url": "https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00099" },
+            { "label": "IEEE Xplore", "url": "https://ieeexplore.ieee.org/document/10765289" },
+            { "label": "Lab page", "url": "https://bionicvisionlab.org/publications/2024-10-ismar-vision-ai/" }
+          ]
+        },
+        {
+          "title": "Navigating the last mile: Evaluating head- and cane-mounted cameras for egocentric spatial awareness",
+          "authors": "Apurv Varshney, Lucas Nadolskis, Tobias Höllerer, Michael Beyeler",
+          "venue": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)",
+          "year": "2026",
+          "desc": "Evaluates combining head- and cane-mounted cameras to support spatial awareness and last-mile navigation for blind users.",
+          "links": [
+            { "label": "arXiv", "url": "https://arxiv.org/abs/2504.19345" },
+            { "label": "Lab page", "url": "https://bionicvisionlab.org/publications/2026-10-navigating-last-mile/" }
+          ]
+        },
+        {
+          "title": "Use of Computer Vision to Develop a Device to Assist Visually Impaired People with Social Distance",
+          "authors": "Lucas G. Nadolskis",
+          "venue": "AAAI Conference on Artificial Intelligence, 35(18):15974–15975 (Undergraduate Consortium)",
+          "year": "2021",
+          "desc": "A COVID-era assistive computer-vision device to help blind and low-vision people maintain social distance.",
+          "links": [
+            { "label": "DOI", "url": "https://doi.org/10.1609/aaai.v35i18.17983" },
+            { "label": "PDF", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17983/17788" },
+            { "label": "Video", "url": "https://www.youtube.com/watch?v=TPHgUXT0Ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preprints & Workshop Papers",
+      "items": [
+        {
+          "title": "Beyond Sight: Probing Alignment Between Image Models and Blind V1",
+          "authors": "J. Granley*, G. Pogoncheff*, A. Rodil, L. Soo, L. M. Turkstra, L. G. Nadolskis, A. Alfaro Saez, C. Soto Sanchez, E. Fernandez Jover, M. Beyeler",
+          "venue": "ICLR 2024 Workshop on Representational Alignment (Re-Align)",
+          "year": "2024",
+          "desc": "Compares evoked neural activity in the V1 of a blind human with a cortical implant against deep neural network representations.",
+          "links": [
+            { "label": "arXiv", "url": "https://arxiv.org/abs/2403.12990" },
+            { "label": "OpenReview", "url": "https://openreview.net/forum?id=FG7XQbcDuZ" },
+            { "label": "Lab page", "url": "https://bionicvisionlab.org/publications/2024-05-beyond-sight-blind-v1-alignment/" }
+          ]
+        },
+        {
+          "title": "Sustained stimulus-selective multi-unit activity in human primary visual cortex",
+          "authors": "L. Nadolskis, G. Pogoncheff, J. Granley, A. Rodil, L. Soo, L. Turkstra, et al.",
+          "venue": "Journal of Vision, 24(10):1216 (VSS abstract)",
+          "year": "2024",
+          "desc": "Conference abstract on multi-unit recordings in human V1 with a cortical visual implant.",
+          "links": [
+            { "label": "DOI", "url": "https://doi.org/10.1167/jov.24.10.1216" },
+            { "label": "Abstract", "url": "https://jov.arvojournals.org/article.aspx?articleid=2801869" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thesis",
+      "items": [
+        {
+          "title": "Exploring top-down visual pathways using micro-stimulation and its applications to cortical visual prosthesis",
+          "authors": "Lucas Nadolskis",
+          "venue": "Carnegie Mellon University — MS Thesis (advisor: Matthew Smith)",
+          "year": "2023",
+          "desc": "Master's thesis on top-down visual pathways and their application to cortical visual prostheses.",
+          "links": [
+            { "label": "CMU KiltHub (PDF)", "url": "https://kilthub.cmu.edu/articles/thesis/Exploring_top-down_visual_pathways_using_micro-stimulation_and_its_applications_to_cortical_visual_prosthesis/24201753" },
+            { "label": "DOI", "url": "https://doi.org/10.1184/R1/24201753.v1" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Research Projects",
+      "items": [
+        {
+          "title": "NeuroAI Models of the Visual System (Project Lead)",
+          "authors": "Bionic Vision Lab, UC Santa Barbara",
+          "venue": "Computational neuroscience / NeuroAI",
+          "year": "",
+          "desc": "I lead this project on understanding the visual system in health and disease to inform neuroengineering and visual prostheses.",
+          "links": [ { "label": "Project page", "url": "https://bionicvisionlab.org/research/neuroai-models-visual-system/" } ]
+        },
+        {
+          "title": "Towards a Smart Bionic Eye (Project Affiliate)",
+          "authors": "Bionic Vision Lab, UC Santa Barbara",
+          "venue": "Visual prosthetics",
+          "year": "",
+          "desc": "Building practical, useful artificial vision now, rather than waiting to restore natural sight.",
+          "links": [
+            { "label": "Project page", "url": "https://bionicvisionlab.org/research/smart-bionic-eye/" },
+            { "label": "Video (audio described)", "url": "https://www.youtube.com/watch?v=vlpG_WRLfw0" }
+          ]
+        },
+        {
+          "title": "Understanding the Information Needs of People Who Are Blind or Visually Impaired",
+          "authors": "Bionic Vision Lab, UC Santa Barbara",
+          "venue": "Accessibility research",
+          "year": "",
+          "desc": "Studying the strategies blind and low-vision people use for daily activities to guide future accessibility aids.",
+          "links": [ { "label": "Project page", "url": "https://bionicvisionlab.org/research/information-needs-blind-low-vision/" } ]
+        },
+        {
+          "title": "Assistive Technologies for People Who Are Blind",
+          "authors": "Bionic Vision Lab, UC Santa Barbara",
+          "venue": "Computer vision / assistive tech",
+          "year": "",
+          "desc": "Integrating computer vision into assistive devices to improve urban navigation and environmental interaction.",
+          "links": [ { "label": "Project page", "url": "https://bionicvisionlab.org/research/assistive-technologies-blind/" } ]
+        }
+      ]
+    },
+    {
+      "title": "Talks & Appearances",
+      "items": [
+        {
+          "title": "The Vision of a Blind Scientist: Journey, Challenges, and the Future of Visual Prostheses",
+          "authors": "Lucas Gil Nadolskis & Michael Beyeler",
+          "venue": "11th World Blindness Summit, São Paulo, Brazil",
+          "year": "2025",
+          "desc": "Invited talk at the World Blindness Summit on my path as a blind scientist and the future of visual prostheses.",
+          "links": [
+            { "label": "Program", "url": "https://mundialdadeficienciavisual.com.br/en/program-of-the-technical-and-scientific-congress-of-the-11th-world-blindness-summit/" },
+            { "label": "Program (PDF)", "url": "https://mundialdadeficienciavisual.com.br/wp-content/uploads/2025/08/PROGRAMA-INGLES.pdf" }
+          ]
+        },
+        {
+          "title": "2nd Workshop on Accessible Data Visualization (AccessViz) — Organizing Committee",
+          "authors": "with Brianna Wimer, Frank Elavsky, Dominik Moritz, et al.",
+          "venue": "IEEE VIS 2025, Vienna, Austria",
+          "year": "2025",
+          "desc": "Co-organizer of the second workshop on accessible data visualization at IEEE VIS.",
+          "links": [
+            { "label": "IEEE VIS program", "url": "https://ieeevis.org/year/2025/program/event_w-accessviz.html" },
+            { "label": "Workshop site", "url": "https://accessviz.github.io/" }
+          ]
+        },
+        {
+          "title": "1st Workshop on Accessible Data Visualization (AccessViz) — Organizing Committee",
+          "authors": "with Brianna Wimer, Laura South, Frank Elavsky, Dominik Moritz, et al.",
+          "venue": "IEEE VIS 2024, St. Pete Beach, Florida",
+          "year": "2024",
+          "desc": "Co-organizer of the inaugural workshop on accessible data visualization at IEEE VIS.",
+          "links": [
+            { "label": "IEEE VIS program", "url": "https://ieeevis.org/year/2024/program/event_w-accessible.html" },
+            { "label": "Recording", "url": "https://youtu.be/GFjcYdUIC7k" }
+          ]
+        },
+        {
+          "title": "Assistive device for social distancing for blind users (3-minute pitch)",
+          "authors": "Lucas Gil Nadolskis",
+          "venue": "AAAI-21 Undergraduate Consortium (video)",
+          "year": "2021",
+          "desc": "My undergraduate research pitch on a depth-camera device to help blind users keep social distance.",
+          "links": [
+            { "label": "Video", "url": "https://www.youtube.com/watch?v=TPHgUXT0Ink" },
+            { "label": "Paper", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17983" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Podcasts",
+      "items": [
+        {
+          "title": "How Does Vision Work?",
+          "authors": "Tumble Science Podcast for Kids",
+          "venue": "Tumble Media",
+          "year": "2025",
+          "desc": "A kid-friendly episode where I explain how vision works in the brain and whether sight without eyes is possible.",
+          "links": [ { "label": "Listen", "url": "https://www.sciencepodcastforkids.com/single-post/how-does-vision-work" } ]
+        },
+        {
+          "title": "Towards a Smart Bionic Eye",
+          "authors": "with Michael Beyeler & Jason Esterhuizen",
+          "venue": "NNLM Discovery Podcast (National Library of Medicine)",
+          "year": "2024",
+          "desc": "On the Smart Bionic Eye project, navigation as a blind person, and designing implants that complement the cane.",
+          "links": [
+            { "label": "Listen", "url": "https://www.nnlm.gov/resources/podcast/towards-a-smart-bionic-eye" },
+            { "label": "Video (audio described)", "url": "https://www.youtube.com/watch?v=vlpG_WRLfw0" }
+          ]
+        },
+        {
+          "title": "NeurodiverCity — An 'eye-opening' conversation on bathrooms",
+          "authors": "with Dr. Kirsten Day",
+          "venue": "What is the Future for Cities? (Ep. 200P)",
+          "year": "2024",
+          "desc": "A panel discussion on neurodiversity in cities, sensory experiences, and accessible design.",
+          "links": [ { "label": "Listen", "url": "https://wtf4cities.com/2024/03/07/200p_neurodivercity-an-eye-opening-conversation-on-bathrooms-with-dr-kirsten-day-and-lucas-gil-nadolskis/" } ]
+        }
+      ]
+    },
+    {
+      "title": "Writing & Letters",
+      "items": [
+        {
+          "title": "At a Loss for a McCartney Ticket",
+          "authors": "Lucas Nadolskis",
+          "venue": "The Santa Barbara Independent — Letter to the Editor",
+          "year": "2025",
+          "desc": "A letter on being shut out of buying Paul McCartney tickets because the AXS website was incompatible with my screen reader — and the case for digital accessibility.",
+          "links": [ { "label": "Read", "url": "https://www.independent.com/2025/09/25/at-a-loss-for-a-mccartney-ticket/" } ]
+        }
+      ]
+    },
+    {
+      "title": "Media Coverage",
+      "items": [
+        {
+          "title": "A Fan's Dream Comes True",
+          "authors": "The Santa Barbara Independent",
+          "venue": "Santa Barbara Independent",
+          "year": "2025",
+          "desc": "The follow-up: after my letter, Paul McCartney's team reached out and made sure I got front-row seats to the show.",
+          "links": [ { "label": "Read", "url": "https://www.independent.com/2025/09/29/a-fans-dream-comes-true/" } ]
+        },
+        {
+          "title": "A Future Where Blindness Is No Barrier: The Smart Bionic Eye",
+          "authors": "NLM Musings from the Mezzanine (NIH / NLM)",
+          "venue": "National Library of Medicine blog",
+          "year": "2024",
+          "desc": "An NLM blog post on the Smart Bionic Eye, with an audio-described video and quotes from me.",
+          "links": [
+            { "label": "Read", "url": "https://nlmdirector.nlm.nih.gov/2024/10/16/a-future-where-blindness-is-no-barrier-the-smart-bionic-eye/" },
+            { "label": "Video", "url": "https://www.youtube.com/watch?v=vlpG_WRLfw0" }
+          ]
+        },
+        {
+          "title": "Seeing the future: Michael Beyeler's work in neurotechnology earns him top faculty award",
+          "authors": "The Current — UCSB News",
+          "venue": "UC Santa Barbara",
+          "year": "2024",
+          "desc": "A UCSB feature on the Bionic Vision Lab that highlights my work as a blind PhD researcher.",
+          "links": [ { "label": "Read", "url": "https://news.ucsb.edu/2024/021709/seeing-future-michael-beyelers-work-neurotechnology-earns-him-top-faculty-award" } ]
+        }
+      ]
+    },
+    {
+      "title": "Labs & Profiles",
+      "items": [
+        {
+          "title": "Bionic Vision Lab (UC Santa Barbara)",
+          "authors": "",
+          "venue": "My current PhD lab",
+          "year": "",
+          "desc": "My research home, advised by Michael Beyeler.",
+          "links": [
+            { "label": "My page", "url": "https://bionicvisionlab.org/people/nadolskis_lucas/" },
+            { "label": "Lab home", "url": "https://bionicvisionlab.org/" }
+          ]
+        },
+        {
+          "title": "Smith Lab (Carnegie Mellon University)",
+          "authors": "",
+          "venue": "My MS research lab",
+          "year": "",
+          "desc": "Matthew Smith's computational neuroscience lab, where I did my master's work.",
+          "links": [
+            { "label": "People", "url": "https://smithlab.net/people/" },
+            { "label": "Lab home", "url": "https://smithlab.net/" }
+          ]
+        },
+        {
+          "title": "UCSB Dynamical Neuroscience",
+          "authors": "",
+          "venue": "Department profile",
+          "year": "",
+          "desc": "My graduate program profile.",
+          "links": [ { "label": "Profile", "url": "https://www.dyns.ucsb.edu/people/students/lucas-nadolskis" } ]
+        },
+        {
+          "title": "NEVE Project",
+          "authors": "",
+          "venue": "Recipient & advisory board",
+          "year": "",
+          "desc": "Profile and personal essay on my path from Brazil to neuroscience research.",
+          "links": [ { "label": "Profile", "url": "https://neveproject.org/recipients/lucas-nadolskis/" } ]
+        },
+        {
+          "title": "Google Scholar",
+          "authors": "",
+          "venue": "Citations",
+          "year": "",
+          "desc": "Full, automatically updated list of my publications and citations.",
+          "links": [ { "label": "Scholar", "url": "https://scholar.google.com/citations?user=UN24wokAAAAJ" } ]
+        },
+        {
+          "title": "GitHub",
+          "authors": "",
+          "venue": "Code & projects",
+          "year": "",
+          "desc": "My open-source code, including the source for this site.",
+          "links": [ { "label": "GitHub", "url": "https://github.com/lgnadolskis" } ]
+        }
+      ]
+    }
+  ]
+}

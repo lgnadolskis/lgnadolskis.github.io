@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Braille Mind</title>
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Lucas Gil Nadolskis." />
+  <meta name="author" content="Lucas Gil Nadolskis" />
+  <meta property="og:title" content="About | Braille Mind" />
+  <meta property="og:description" content="About Lucas Gil Nadolskis." />
+  <meta property="og:type" content="website" />
+  <title>About | Braille Mind</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Braille Mind</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                </ul>
-            </div>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+        Braille Mind
+      </a>
+      <div class="nav-right">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="publications.html">Publications &amp; Media</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch theme">🌙</button>
+      </div>
     </nav>
-    
-    <header class="py-5 bg-light">
-        <div class="container">
-            <h1 class="fw-bolder">About Braille Mind</h1>
-            <p> </p>
-        </div>
-    </header>
-    
+  </header>
+  <main id="main">
     <div class="container">
-        <p>Hi, I’m Lucas Gil Nadolskis, a PhD student working on accessibility and neuroscience. My blog shares insights on combining technology and neuroscience to improve the lives of blind individuals.</p>
-        <!-- Add more content about yourself or the site here -->
+      <h1>About</h1>
+      <div class="prose">
+<p>Hi, I&rsquo;m <strong>Lucas Gil Nadolskis</strong> — a PhD student in Dynamical Neuroscience at UC Santa Barbara, working in the <a href="https://bionicvisionlab.org/people/nadolskis_lucas/">Bionic Vision Lab</a>. I research the intersection of accessibility, neuroscience, and technology, with a focus on visual prosthetics and making science genuinely usable for blind and low-vision people.</p>
+<p>I&rsquo;ve been blind since the age of five. My path has taken me from Brazil to the University of Minnesota, then to Carnegie Mellon for a master&rsquo;s, and now to UCSB — studying how the brain processes vision and how we might restore it through bionic eyes and cortical implants.</p>
+<p><strong>Braille Mind</strong> is where I write about that work and about the day-to-day reality of doing STEM as a blind researcher: the tools, the workarounds, the open problems, and the occasional small victories. Everything here lives at the meeting point of three things I care about — accessibility, neuroscience, and technology — combined, fittingly, in six dots.</p>
+      </div>
     </div>
-    
-    <footer class="py-5 bg-dark">
-        <div class="container text-center text-white">
-            <p>&copy; 2024 Lucas Gil Nadolskis. All rights reserved.</p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Lucas Gil Nadolskis. All rights reserved.</p>
+      <ul class="footer-links"><li><a href="mailto:lgnadolskis@gmail.com">Email</a></li><li><a href="https://scholar.google.com/citations?user=UN24wokAAAAJ">Google Scholar</a></li><li><a href="https://bionicvisionlab.org/people/nadolskis_lucas/">Bionic Vision Lab</a></li><li><a href="https://www.linkedin.com/in/lgilnadolskis/">LinkedIn</a></li><li><a href="https://x.com/lnadolskis">Twitter / X</a></li><li><a href="https://bsky.app/profile/lnadolskis.bsky.social">Bluesky</a></li></ul>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
