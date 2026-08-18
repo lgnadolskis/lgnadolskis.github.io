@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Braille Mind</title>
+  <link>https://braillemind.com</link>
+  <description>A blog by Lucas Gil Nadolskis combining accessibility, neuroscience, and technology.</description>
+  <language>en-us</language>
+  <item>
+    <title>Navigating STEM as a Blind PhD Student: A Personal Journey</title>
+    <link>https://braillemind.com/posts/navigating-stem-as-a-blind-phd-student.html</link>
+    <guid>https://braillemind.com/posts/navigating-stem-as-a-blind-phd-student.html</guid>
+    <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+    <description>How I make an ordinary differential equations textbook accessible — and why today&#x27;s tools still fall short.</description>
+  </item>
+</channel>
+</rss>

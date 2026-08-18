@@ -223,6 +223,7 @@ def build_index(cfg, posts):
       <ul class="post-list">
 {recent}      </ul>
       <p style="margin-top:2rem"><a class="btn--ghost btn" href="blog.html">See all posts</a></p>
+      {subscribe_block(cfg)}
     </div>
   </main>
 """ + footer(cfg)
@@ -306,6 +307,63 @@ def build_cv(cfg):
   </main>
 """ + footer(cfg)
     write(os.path.join(ROOT, "cv.html"), body)
+
+
+def build_speaking(cfg):
+    path = os.path.join(CONTENT, "pages", "speaking.md")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        MD.reset()
+        body_html = MD.convert(f.read())
+    body = head(cfg, f"Speaking & Media | {cfg['site_title']}", "Book Lucas Gil Nadolskis for talks, panels, podcasts, and media on bionic vision and accessible science.") + header(cfg, "speaking.html") + f"""  <main id="main">
+    <div class="container">
+      <h1>Speaking &amp; Media</h1>
+      <div class="prose">
+{body_html}
+      </div>
+      {subscribe_block(cfg)}
+    </div>
+  </main>
+""" + footer(cfg)
+    write(os.path.join(ROOT, "speaking.html"), body)
+
+
+def subscribe_block(cfg, rel=""):
+    mailto = "mailto:lgnadolskis@gmail.com?subject=Subscribe%20to%20Braille%20Mind"
+    return f"""<section class="section-block" aria-labelledby="subscribe-heading">
+        <h2 id="subscribe-heading">Follow along</h2>
+        <p>New posts and appearances, straight to you: <a class="btn" href="{mailto}">Subscribe by email</a> <a class="btn btn--ghost" href="{rel}feed.xml">RSS feed</a></p>
+      </section>"""
+
+
+def build_feed(cfg, posts):
+    items = ""
+    for p in posts:
+        link = f"{cfg['url'].rstrip('/')}/posts/{p['slug']}.html"
+        try:
+            pub = dt.datetime.strptime(str(p["date_raw"]), "%Y-%m-%d").strftime("%a, %d %b %Y 00:00:00 GMT")
+        except ValueError:
+            pub = ""
+        items += f"""  <item>
+    <title>{html.escape(p['title'])}</title>
+    <link>{html.escape(link)}</link>
+    <guid>{html.escape(link)}</guid>
+    <pubDate>{pub}</pubDate>
+    <description>{html.escape(p['summary'])}</description>
+  </item>
+"""
+    feed = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{html.escape(cfg['site_title'])}</title>
+  <link>{html.escape(cfg['url'])}</link>
+  <description>{html.escape(cfg['description'])}</description>
+  <language>en-us</language>
+{items}</channel>
+</rss>
+"""
+    write(os.path.join(ROOT, "feed.xml"), feed)
 
 
 def build_contact(cfg):
@@ -435,8 +493,10 @@ def main():
         build_post(cfg, p)
     build_about(cfg)
     build_cv(cfg)
+    build_speaking(cfg)
     build_contact(cfg)
     build_publications(cfg)
+    build_feed(cfg, posts)
     build_linkedin(cfg, posts)
     print(f"\nDone. {len(posts)} post(s) built.")
 

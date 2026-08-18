@@ -8,6 +8,7 @@
     { "label": "Home", "href": "index.html" },
     { "label": "Blog", "href": "blog.html" },
     { "label": "Publications & Media", "href": "publications.html" },
+    { "label": "Speaking", "href": "speaking.html" },
     { "label": "CV", "href": "cv.html" },
     { "label": "About", "href": "about.html" },
     { "label": "Contact", "href": "contact.html" }
