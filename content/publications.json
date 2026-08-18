@@ -70,6 +70,14 @@
       "title": "Preprints & Workshop Papers",
       "items": [
         {
+          "title": "Skeleton: Visual Authoring of Non-visual Data Experiences",
+          "authors": "F. Elavsky, C. Nnadozie, L. Nadolskis, P. Carrington, D. Moritz",
+          "venue": "arXiv preprint arXiv:2607.14579",
+          "year": "2026",
+          "desc": "New work with the Data Navigator team on authoring non-visual, screen-reader-friendly data experiences.",
+          "links": [ { "label": "arXiv", "url": "https://arxiv.org/abs/2607.14579" } ]
+        },
+        {
           "title": "Beyond Sight: Probing Alignment Between Image Models and Blind V1",
           "authors": "J. Granley*, G. Pogoncheff*, A. Rodil, L. Soo, L. M. Turkstra, L. G. Nadolskis, A. Alfaro Saez, C. Soto Sanchez, E. Fernandez Jover, M. Beyeler",
           "venue": "ICLR 2024 Workshop on Representational Alignment (Re-Align)",

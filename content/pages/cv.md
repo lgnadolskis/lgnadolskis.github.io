@@ -21,6 +21,7 @@ I work to improve the lives of people with vision loss through research in visua
 
 ## Preprints, Workshop Papers & Abstracts
 
+- F. Elavsky, C. Nnadozie, **L. Nadolskis**, P. Carrington, D. Moritz. "Skeleton: Visual Authoring of Non-visual Data Experiences." *arXiv preprint arXiv:2607.14579*, 2026. [arXiv](https://arxiv.org/abs/2607.14579)
 - J. Granley\*, G. Pogoncheff\*, A. Rodil, L. Soo, L. M. Turkstra, **L. G. Nadolskis**, A. Alfaro Saez, C. Soto Sanchez, E. Fernandez Jover, M. Beyeler. "Beyond Sight: Probing Alignment Between Image Models and Blind V1." *ICLR 2024 Workshop on Representational Alignment (Re-Align).* [arXiv](https://arxiv.org/abs/2403.12990) · [OpenReview](https://openreview.net/forum?id=FG7XQbcDuZ)
 - **L. Nadolskis**, G. Pogoncheff, J. Granley, A. Rodil, L. Soo, L. Turkstra, et al. "Sustained stimulus-selective multi-unit activity in human primary visual cortex." *Journal of Vision* 24(10):1216 (VSS), 2024. [DOI](https://doi.org/10.1167/jov.24.10.1216)
 - **L. Nadolskis**. "Applying novel technologies to assist visually impaired people with social distance measures." Poster, *Grace Hopper Celebration*, 2020.
