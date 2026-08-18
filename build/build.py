@@ -330,6 +330,18 @@ def build_speaking(cfg):
 
 
 def subscribe_block(cfg, rel=""):
+    username = cfg.get("buttondown", "")
+    if username:
+        return f"""<section class="section-block" aria-labelledby="subscribe-heading">
+        <h2 id="subscribe-heading">Follow along</h2>
+        <p>New posts and appearances, straight to your inbox.</p>
+        <form action="https://buttondown.com/api/emails/embed-subscribe/{html.escape(username)}" method="post" target="_blank" class="subscribe-form">
+          <label for="bd-email">Email address</label>
+          <input type="email" name="email" id="bd-email" required autocomplete="email" placeholder="you@example.com" />
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+        <p>Prefer a feed reader? <a href="{rel}feed.xml">RSS feed</a>. Powered by Buttondown; unsubscribe anytime.</p>
+      </section>"""
     mailto = "mailto:lgnadolskis@gmail.com?subject=Subscribe%20to%20Braille%20Mind"
     return f"""<section class="section-block" aria-labelledby="subscribe-heading">
         <h2 id="subscribe-heading">Follow along</h2>

@@ -65,7 +65,13 @@
       </div>
       <section class="section-block" aria-labelledby="subscribe-heading">
         <h2 id="subscribe-heading">Follow along</h2>
-        <p>New posts and appearances, straight to you: <a class="btn" href="mailto:lgnadolskis@gmail.com?subject=Subscribe%20to%20Braille%20Mind">Subscribe by email</a> <a class="btn btn--ghost" href="feed.xml">RSS feed</a></p>
+        <p>New posts and appearances, straight to your inbox.</p>
+        <form action="https://buttondown.com/api/emails/embed-subscribe/braillemind" method="post" target="_blank" class="subscribe-form">
+          <label for="bd-email">Email address</label>
+          <input type="email" name="email" id="bd-email" required autocomplete="email" placeholder="you@example.com" />
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+        <p>Prefer a feed reader? <a href="feed.xml">RSS feed</a>. Powered by Buttondown; unsubscribe anytime.</p>
       </section>
     </div>
   </main>

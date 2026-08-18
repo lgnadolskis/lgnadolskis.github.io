@@ -3,6 +3,7 @@
   "tagline": "Accessibility, neuroscience, and technology — combined in six dots.",
   "author": "Lucas Gil Nadolskis",
   "url": "https://braillemind.com",
+  "buttondown": "braillemind",
   "description": "A blog by Lucas Gil Nadolskis combining accessibility, neuroscience, and technology.",
   "nav": [
     { "label": "Home", "href": "index.html" },
