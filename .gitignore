@@ -7,3 +7,5 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+_to_delete/
