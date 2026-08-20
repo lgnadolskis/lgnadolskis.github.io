@@ -1,0 +1,42 @@
+---
+title: "Independence Is Not Agency"
+date: 2026-08-20
+summary: "Accessibility research talks about independence constantly. I want to talk about something the field rarely names: agency. Part 1 of a three-part series."
+tags: [Accessibility, Agency, Research]
+subtitle: "Agency series, part 1"
+---
+
+It does not take much effort to find papers and articles about accessibility and disability where "independence" shows up prominently. [CHI](https://chi.acm.org), [ASSETS](https://www.sigaccess.org/assets/), and the other HCI venues describe how blind people want to be independent. Blindness institutes around the world sell their programs with the same word: independent daily living, independent orientation, independent mobility. I understand the appeal. When you are reminded daily of everything you supposedly depend on: canes, dogs, assistants, a growing pile of assistive technology, independence sounds like the thing to want.
+
+But I think there is a second idea we need at least as much, maybe more, and the field has mostly left it unexamined. That idea is agency. This is the first of three pieces about it.
+
+I would like to make one aspect clear early. Nothing here speaks for "blind people." Simplely because I do not believe that this group exist as a single voice. In fact,  you will find as much diversity in openions among blind people as you would with any polarizing subject. We are millions of individuals with different priorities and wishes. This is one blind person's view, and nothing more than that.
+
+## What I mean by each word
+
+When I hear "independence," I take it to mean the ability to carry out a task by yourself. Getting from my apartment to the bus stop , cooking  and  writing this article are examples of independent tasks.
+
+Agency is different, and harder to pin down. By agency I mean actual control over a task, not only over how it gets done, but also over what comes out and over whether I can make what comes out better. You can be independent at a task and still have very little agency in it. That gap is what this series is about.
+
+Take this article. I have full agency over it. I choose the words, I fix the grammar, I shape the argument, and when a grammar tool cleans something up, I re-read it and change what I do not like. What I do not have is agency over how the article looks on your screen. I write with a screen reader. I cannot tell whether the layout reads as professional or like a ransom note. I could ask a few language models to describe it. I could poll a hundred people online. Either way I would still be taking someone's word for it, and taking someone's word for it is the opposite of agency.
+
+## Where this bites: my own research
+
+The same problem follows me into the lab, except with higher stakes. I have full agency over the code I write. I do not have agency over large parts of what the code produces, because in neuroscience, results arrive as graphs and figures. I can ask the same hundred people and the same models (assuming nobody has blocked my number and I have not run out of tokens), and I still cannot fully control, or even verify, the artifact of my own project.
+
+A fair objection: use numerical methods. Skip the graphs, read the data through tables and statistics. That is true, and it is honestly how I do most of my work. But peer review does not run on tables alone. To publish, I have to benchmark against the state of the art, and those papers report their results in figures. And if I give a talk with no visuals, the audience will have drifted off or fallen asleep faster than my dog lying under the sun. The world is a visual place. Academia is no exception.
+
+A concrete example from my field: [spike sorting](https://pmc.ncbi.nlm.nih.gov/articles/PMC4674014/), the problem of working out which neurons produced the activity picked up by a given electrode. There are plenty of ways to do spike sorting non-visually. Modern pipelines like [Kilosort](https://github.com/MouseLand/Kilosort) and [SpikeInterface](https://github.com/SpikeInterface/spikeinterface) expose their results as numbers and quality metrics long before anything gets drawn  and I have used most of them. It would still be unrealistic to imagine publishing a spike sorting paper on numerical results alone, without a well-produced figure. The figure is the currency. If I cannot inspect it myself, someone else holds the last word on my own science.
+
+![Three-panel spike sorting figure on a dark background. Panel a, titled "Raw extracellular trace," shows 300 milliseconds of a noisy voltage recording with spikes of different depths poking out of the noise; small colored arrowheads above the trace mark each detected spike in blue, orange, or teal. Panel b, titled "Spike waveforms by unit," overlays dozens of individual spike shapes aligned in time and colored by unit: a deep narrow teal waveform, a medium blue one, and a shallower, broader orange one, each with a thick mean line. Panel c, titled "Cluster separation (PCA)," is a scatter plot of the same spikes projected onto two principal components, forming three clearly separated labeled clouds: Unit 1 in blue, Unit 2 in orange, Unit 3 in teal.](../assets/spike-sorting-example.png)
+
+*The figure above is exactly what I mean. It shows the standard spike sorting story — one noisy electrode, three neurons recovered — and it is the kind of image reviewers expect. Every number in it existed before anything was drawn. The alt text tells you everything the panels show; sighted readers just get it faster. (I generated this one programmatically, which is the best way for me to possibly control what is on it, assuming claude hasn't hallucinated.)*
+
+Some researchers have started pushing on a related idea: that accessibility's fixation on independence should be balanced by interdependence, where disabled people are active contributors in a web of mutual support rather than recipients of help (Bennett, Brady, and Branham, 2018). I agree with them, and I want to push one step further. Interdependence describes how the work gets done. Agency asks who controls the result.
+
+In the next piece I will look at what the hottest technology in the world, large language models,  gives blind users and what it quietly takes away. The short version: a lot of independence, and much less agency than the demos suggest.
+
+## References
+
+- Bennett, C. L., Brady, E., & Branham, S. M. (2018). [Interdependence as a Frame for Assistive Technology Research and Design](https://dl.acm.org/doi/10.1145/3234695.3236348). *Proceedings of ASSETS '18.*
+- Rey, H. G., Pedreira, C., & Quian Quiroga, R. (2015). [Past, present and future of spike sorting techniques](https://pmc.ncbi.nlm.nih.gov/articles/PMC4674014/). *Brain Research Bulletin*, 119, 106–117.

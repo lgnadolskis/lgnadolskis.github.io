@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Accessibility research talks about independence constantly. I want to talk about something the field rarely names: agency. Part 1 of a three-part series." />
+  <meta name="author" content="Lucas Gil Nadolskis" />
+  <meta property="og:title" content="Independence Is Not Agency | Braille Mind" />
+  <meta property="og:description" content="Accessibility research talks about independence constantly. I want to talk about something the field rarely names: agency. Part 1 of a three-part series." />
+  <meta property="og:type" content="website" />
+  <title>Independence Is Not Agency | Braille Mind</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="../index.html">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+        Braille Mind
+      </a>
+      <div class="nav-right">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog.html" aria-current="page">Blog</a></li>
+        <li><a href="../publications.html">Publications &amp; Media</a></li>
+        <li><a href="../speaking.html">Speaking</a></li>
+        <li><a href="../cv.html">CV</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch theme">🌙</button>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <div class="container">
+      <a class="back-link" href="../blog.html"><span aria-hidden="true">&larr;</span> All posts</a>
+      <article>
+        <header class="article-header">
+          <p class="post-meta">August 20, 2026</p>
+          <h1>Independence Is Not Agency</h1>
+          <p class="lead">Agency series, part 1</p>
+          <p><span class="tag">Accessibility</span><span class="tag">Agency</span><span class="tag">Research</span></p>
+        </header>
+        <div class="article-body">
+<p>It does not take much effort to find papers and articles about accessibility and disability where &ldquo;independence&rdquo; shows up prominently. <a href="https://chi.acm.org">CHI</a>, <a href="https://www.sigaccess.org/assets/">ASSETS</a>, and the other HCI venues describe how blind people want to be independent. Blindness institutes around the world sell their programs with the same word: independent daily living, independent orientation, independent mobility. I understand the appeal. When you are reminded daily of everything you supposedly depend on: canes, dogs, assistants, a growing pile of assistive technology, independence sounds like the thing to want.</p>
+<p>But I think there is a second idea we need at least as much, maybe more, and the field has mostly left it unexamined. That idea is agency. This is the first of three pieces about it.</p>
+<p>I would like to make one aspect clear early. Nothing here speaks for &ldquo;blind people.&rdquo; Simplely because I do not believe that this group exist as a single voice. In fact,  you will find as much diversity in openions among blind people as you would with any polarizing subject. We are millions of individuals with different priorities and wishes. This is one blind person&rsquo;s view, and nothing more than that.</p>
+<h2>What I mean by each word</h2>
+<p>When I hear &ldquo;independence,&rdquo; I take it to mean the ability to carry out a task by yourself. Getting from my apartment to the bus stop , cooking  and  writing this article are examples of independent tasks.</p>
+<p>Agency is different, and harder to pin down. By agency I mean actual control over a task, not only over how it gets done, but also over what comes out and over whether I can make what comes out better. You can be independent at a task and still have very little agency in it. That gap is what this series is about.</p>
+<p>Take this article. I have full agency over it. I choose the words, I fix the grammar, I shape the argument, and when a grammar tool cleans something up, I re-read it and change what I do not like. What I do not have is agency over how the article looks on your screen. I write with a screen reader. I cannot tell whether the layout reads as professional or like a ransom note. I could ask a few language models to describe it. I could poll a hundred people online. Either way I would still be taking someone&rsquo;s word for it, and taking someone&rsquo;s word for it is the opposite of agency.</p>
+<h2>Where this bites: my own research</h2>
+<p>The same problem follows me into the lab, except with higher stakes. I have full agency over the code I write. I do not have agency over large parts of what the code produces, because in neuroscience, results arrive as graphs and figures. I can ask the same hundred people and the same models (assuming nobody has blocked my number and I have not run out of tokens), and I still cannot fully control, or even verify, the artifact of my own project.</p>
+<p>A fair objection: use numerical methods. Skip the graphs, read the data through tables and statistics. That is true, and it is honestly how I do most of my work. But peer review does not run on tables alone. To publish, I have to benchmark against the state of the art, and those papers report their results in figures. And if I give a talk with no visuals, the audience will have drifted off or fallen asleep faster than my dog lying under the sun. The world is a visual place. Academia is no exception.</p>
+<p>A concrete example from my field: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4674014/">spike sorting</a>, the problem of working out which neurons produced the activity picked up by a given electrode. There are plenty of ways to do spike sorting non-visually. Modern pipelines like <a href="https://github.com/MouseLand/Kilosort">Kilosort</a> and <a href="https://github.com/SpikeInterface/spikeinterface">SpikeInterface</a> expose their results as numbers and quality metrics long before anything gets drawn  and I have used most of them. It would still be unrealistic to imagine publishing a spike sorting paper on numerical results alone, without a well-produced figure. The figure is the currency. If I cannot inspect it myself, someone else holds the last word on my own science.</p>
+<p><img alt="Three-panel spike sorting figure on a dark background. Panel a, titled &quot;Raw extracellular trace,&quot; shows 300 milliseconds of a noisy voltage recording with spikes of different depths poking out of the noise; small colored arrowheads above the trace mark each detected spike in blue, orange, or teal. Panel b, titled &quot;Spike waveforms by unit,&quot; overlays dozens of individual spike shapes aligned in time and colored by unit: a deep narrow teal waveform, a medium blue one, and a shallower, broader orange one, each with a thick mean line. Panel c, titled &quot;Cluster separation (PCA),&quot; is a scatter plot of the same spikes projected onto two principal components, forming three clearly separated labeled clouds: Unit 1 in blue, Unit 2 in orange, Unit 3 in teal." src="../assets/spike-sorting-example.png" /></p>
+<p><em>The figure above is exactly what I mean. It shows the standard spike sorting story — one noisy electrode, three neurons recovered — and it is the kind of image reviewers expect. Every number in it existed before anything was drawn. The alt text tells you everything the panels show; sighted readers just get it faster. (I generated this one programmatically, which is the best way for me to possibly control what is on it, assuming claude hasn&rsquo;t hallucinated.)</em></p>
+<p>Some researchers have started pushing on a related idea: that accessibility&rsquo;s fixation on independence should be balanced by interdependence, where disabled people are active contributors in a web of mutual support rather than recipients of help (Bennett, Brady, and Branham, 2018). I agree with them, and I want to push one step further. Interdependence describes how the work gets done. Agency asks who controls the result.</p>
+<p>In the next piece I will look at what the hottest technology in the world, large language models,  gives blind users and what it quietly takes away. The short version: a lot of independence, and much less agency than the demos suggest.</p>
+<h2>References</h2>
+<ul>
+<li>Bennett, C. L., Brady, E., &amp; Branham, S. M. (2018). <a href="https://dl.acm.org/doi/10.1145/3234695.3236348">Interdependence as a Frame for Assistive Technology Research and Design</a>. <em>Proceedings of ASSETS &lsquo;18.</em></li>
+<li>Rey, H. G., Pedreira, C., &amp; Quian Quiroga, R. (2015). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4674014/">Past, present and future of spike sorting techniques</a>. <em>Brain Research Bulletin</em>, 119, 106–117.</li>
+</ul>
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Lucas Gil Nadolskis. All rights reserved.</p>
+      <ul class="footer-links"><li><a href="mailto:lucas@braillemind.com">Email</a></li><li><a href="https://scholar.google.com/citations?user=UN24wokAAAAJ">Google Scholar</a></li><li><a href="https://bionicvisionlab.org/people/nadolskis_lucas/">Bionic Vision Lab</a></li><li><a href="https://www.linkedin.com/in/lgilnadolskis/">LinkedIn</a></li><li><a href="https://x.com/lnadolskis">Twitter / X</a></li><li><a href="https://bsky.app/profile/lnadolskis.bsky.social">Bluesky</a></li></ul>
+    </div>
+  </footer>
+  <script src="../js/scripts.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 I speak about bionic vision, accessible science, and what it means to build the technology I may one day use myself. I've been blind since age five, and I research cortical visual prostheses at UC Santa Barbara's Bionic Vision Lab — which makes me both the engineer and the end-user of my field. I'm available for keynotes, conference talks, panels, podcasts, university seminars, and corporate accessibility events, in **English, Portuguese, or Spanish**, in person or remote.
 
-**To book me:** email [lgnadolskis@gmail.com](mailto:lgnadolskis@gmail.com?subject=Speaking%20inquiry) with the event, date, format, and audience. I usually reply within two business days.
+**To book me:** email [lucas@braillemind.com](mailto:lucas@braillemind.com?subject=Speaking%20inquiry) with the event, date, format, and audience. I usually reply within two business days.
 
 ## Topics I speak about
 
